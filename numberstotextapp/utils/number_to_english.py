@@ -21,11 +21,11 @@ def number_to_english(number_str):
     if not is_only_numbers(number_str):
         return "Please input only digits"
     
-    #number = int(number_str)
+    number = int(number_str)
 
-    #number_length = len(number)
+    number_length = len(number)
 
-    #pattern_called = pattern[number_length](place=2)
+    pattern_called = pattern[number_length](place=2)
 
     return pattern_called
 
